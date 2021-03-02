@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+}
+
+#box1{
+    width:200px; 
+    height:200px;
+    background:#F00;
+    cursor: pointer;
+    position: absolute;    
+}
+
+#box2{
+    width:200px; 
+    height:200px;
+    background:#FC0;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-100px);
+}
+
+#box3{
+    width:200px; 
+    height:200px;
+    background:#393;
+    position: absolute;
+    right: 0;
+
+}
+
+#box4{
+    width:100px; 
+    height:100px;
+    background:rgb(212, 15, 147);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
